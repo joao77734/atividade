@@ -1,0 +1,7 @@
+a = [88, 81, 82, 83, 88, 85, 88, 86]
+print(a)
+print(a.count(88))
+
+
+
+#O comando vai realizar a contagem de quantas vezes o número tem dentro da variável.#
