@@ -36,7 +36,7 @@ if nome_login == nome_gerente and senha_login == senha_gerente:
         if opcao == "1":
     
             print ("\nDigite as informações pedidas abaixo:\n")
-            nome = str (input ("Nome: "))
+            nome = str (input ("Nome do Restaurante: "))
             endereco = str (input ("Endereço: "))
             telefone = str(input("Telefone: "))
             cpf = str(input("CPF: "))
