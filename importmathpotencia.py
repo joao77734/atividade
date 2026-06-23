@@ -1,0 +1,16 @@
+import math
+
+print(math.pow(x, y)) 
+print(math.ceil(x , y))
+print(math.floor(x, y))
+print(math.fabs(-x))
+print(math.sin(math.radians(x)))
+print(math.cos(math.radians(x)))
+print(math.tan(math.radians(x)))
+print(math.radians(math.pi/2))
+print(math.degrees(x))
+print(math.log(x))
+print(math.log10(x))
+print(math.exp(x))
+print(math.gcd(x,y))
+print(math.isclose(x, y, abs_tol = z))

@@ -26,7 +26,7 @@ while True:
 
     opcao = input("Escolha uma opção: ")
 
-    if opcao == "1":
+    if opcao == '1':
         try:
             valor = float(input("Digite o valor do depósito: R$ "))
 
@@ -42,7 +42,7 @@ while True:
 
         except ValueError:
             print("Digite apenas números.")
-    elif opcao == "2":
+    elif opcao == '2':
         try:
             valor = float(input("Digite o valor do saque: R$ "))
 
@@ -61,9 +61,9 @@ while True:
 
         except ValueError:
             print("Digite apenas números.")
-    elif opcao == "3":
+    elif opcao == '3':
         print(f"\nSaldo atual: R$ {saldo:.2f}")
-    elif opcao == "4":
+    elif opcao == '4':
         print("\n=== EXTRATO ===")
 
         if len(extrato) == 0:
@@ -74,7 +74,7 @@ while True:
                 print(movimentacao)
 
         print(f"\nTotal de operações: {quantidade_operacoes}")
-    elif opcao == "5":
+    elif opcao == '5':
         print(f"\nSistema encerrado. Até logo, {nome}!")
         break
     else:
